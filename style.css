@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color:  #041b32;
+    background-color:  #1e2645d4;
     /* overflow-x: hidden; */
 }
 
@@ -74,7 +74,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #00e9a5;
+    color: #2982e1;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -106,7 +106,7 @@ section .title::after{
     margin-left: -30px;
 }
 .navbar .logo a span{
-    color: #00e9a5;
+    color: #0080e9;
     transition: all 00.6s ease-in-out;
 }
 .navbar.sticky .logo a span{
@@ -133,14 +133,14 @@ section .title::after{
 }
 .navbar ul li a:hover{
     transition: all 00.60s ease-in-out;
-    border-bottom: 2px solid #00e9a5;
-    box-shadow: 5px 10px 30px rgba(0,255,128,0.4);
+    border-bottom: 2px solid rgb(6, 14, 241);
+    box-shadow: 5px 10px 30px rgba(11, 80, 231, 0.4);
 }
 
 /* menu btn */
 .menu-btn{
-    color: #fff;
-    font-size: 23px;
+    color: rgb(11, 50, 222);
+    font-size: 30px;
     cursor: pointer;
     display: none;
 }
@@ -148,7 +148,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #00e9a5;
+    background: #0d42d4;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -182,16 +182,16 @@ section .title::after{
     top: 30%;
     border-radius: 100%;  
     border-style: ridge; 
-    border-left-color: #00e9a5;
-    border-right-color: #00e9a5;
-    border-top-color: #00e9a5;
-    border-bottom-color: #00e9a5;
+    border-left-color: #0cb1ec;
+    border-right-color: #0895e1;
+    border-top-color: #0094e9;
+    border-bottom-color: #0e9af0;
     white-space: nowrap;    
 }
 
 .home img:hover{
-    border-bottom: 2px solid #00e9a5;
-    box-shadow: 5px 10px 30px rgba(0,255,128,0.4);
+    border-bottom: 2px solid #08a0e6;
+    box-shadow: 5px 10px 30px rgba(5, 71, 150, 0.4);
     cursor: pointer;
     transition: 0.6s;
 }
@@ -226,29 +226,29 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #00e9a5;
+    color: #1a9de4;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #00e9a5;
+    background: #2895e7;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #00e9a5;
+    border: 2px solid #19b3eb;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: #00e9a5;
+    color: #19c7f7;
     background: none;
 }
 .break{
     width: 100%;
     height: 1px;
-    background-color: #00e9a5;
+    background-color: #00b3e9;
     margin-left: -3px;
     margin-top: 500px;
     padding-right: 100%;
@@ -282,32 +282,32 @@ section .title::after{
     color: #fff;
 }
 .about .about-content .right .text span{
-    color: #00e9a5;
+    color: #0db8f1;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #00e9a5;
+    background: #09b2eb;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #00e9a5;
+    border: 2px solid #00b7e9;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #00e9a5;
+    color: #279cf0;
     background: none;
 }
 
 .break2{
     width: 100%;
     height: 1px;
-    background-color: #00e9a5;
+    background-color: #f3f6f8;
     margin-left: -3px;
     margin-top: 120px;
     padding-right: 100%;
@@ -316,7 +316,7 @@ section .title::after{
 /* projects section styling */
 .projects{
     color:#fff;
-    background: #0D202C;
+    background: #273159;
     margin-top: -99px;
 }
 .projects .title::before,
@@ -325,13 +325,13 @@ section .title::after{
 }
 .projects .title::after,
 .title::after{
-    background: #111;
-    content: "What I've Done";
+    background: rgb(129, 158, 222);
+    content: "What I Did";
 }
 .projects .projects-content .card{
     margin-top: 25px;
     width: calc(33% - 20px);
-    background: #2c4f5e;
+    background: white;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -339,7 +339,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .projects .projects-content .card:hover{
-    background: #00e9a5;
+    background: #384b6e;
 }
 .projects .projects-content .card .box{
     transition: all 0.3s ease;
@@ -349,7 +349,7 @@ section .title::after{
 }
 .projects .projects-content .card i{
     font-size: 50px;
-    color: #00e9a5;
+    color: #068be3;
     transition: color 0.3s ease;
 }
 .projects .projects-content .card:hover i{
@@ -385,14 +385,14 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: #00e9a5;
+    background: #04a4e9;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #00e9a5;
+    border: 2px solid #1d88df;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
@@ -425,7 +425,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: #00e9a5;
+    background: #079eef;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -481,7 +481,7 @@ section .title::after{
 }
 .connect .connect-content .row i{
     font-size: 25px;
-    color: #00e9a5;
+    color: #1f83e6;
     margin-left: 50px
 }
 .connect .connect-content .info .head{
@@ -493,34 +493,7 @@ section .title::after{
     margin-left: 50px
 }
 
-/* .media ul{
-    list-style: none;
-    text-decoration: none;
-}
-.media li{
-    display: inline-block;
-    padding: 10px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-.media{
-    display: flex;
-    background-color: none;
-    justify-content: space-around;
-    width: 880px;
-    list-style: none;
-    margin-left: 40px;
-    margin-bottom: -100px;
-}
-.media a{
-    color: #00e9a5;
-    text-decoration-color: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 45px;
-    text-decoration: none;
-    margin-left: 50px;
-} */
+
 
 /* footer section styling */
 footer{
@@ -530,7 +503,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #00e9a5;
+    color: #248fc4;
     text-decoration: none;
 }
 footer span a:hover{
@@ -559,7 +532,7 @@ footer span a:hover{
     .break{
         width: 100%;
         height: 1px;
-        background-color: #00e9a5;
+        background-color: #0a98f0;
         margin-left: -3px;
         padding-right: 100%;
         margin-bottom: 1px;
@@ -681,9 +654,12 @@ footer span a:hover{
     .scroll-up-btn{
         right: 15px;
         bottom: 15px;
-        height: 38px;
-        width: 35px;
-        font-size: 23px;
-        line-height: 38px;
+        height: 48px;
+        width: 45px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .icons{
+        display: inline-flex;
     }
 }
