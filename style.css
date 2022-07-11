@@ -299,7 +299,7 @@ section .title::after :hover{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #279cf0;
+    /* color: #279cf0; */
     background: none;
 }
 
@@ -324,10 +324,10 @@ section .title::after :hover{
     width: calc(33% - 20px);
     background: white;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 50px 25px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 .projects .projects-content .card:hover{
     background: #384b6e;
@@ -419,13 +419,13 @@ section .title::after :hover{
     background: #079eef;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 95%;
 }
 .skills-content .right .kotlin::before{
-    width: 70%;
+    width: 80%;
 }
 .skills-content .right .iot::before{
-    width: 80%;
+    width: 60%;
 }
 .skills-content .right .js::before{
     width: 60%;
@@ -446,17 +446,7 @@ section .title::after :hover{
     width: calc(100% - 30px);
     margin-left: 100px;
 }
-/* .connect .connect-content .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #fff;
-}
-.connect .connect-content .left p{
-    text-align: justify;
-    color: #fff;
-    margin-top: 10px;
-} */
+
 .connect .connect-content .left .icons{
     margin: 10px 0;
     margin-top: 10px;
